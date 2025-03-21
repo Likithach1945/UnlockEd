@@ -28,13 +28,7 @@ public class Assessment {
 }
 
 
-//package com.unlocked.unlocked.models;
-//
-//import com.unlocked.unlocked.models.Question;
-//import org.springframework.data.annotation.Id;
-//import org.springframework.data.mongodb.core.mapping.Document;
-//import java.util.List;
-//
+//Have to try this again during the implementation of the unlocking mechanism
 //@Document(collection = "assessments")
 //public class Assessment {
 //    @Id
@@ -88,4 +82,4 @@ public class Assessment {
 //        return passed;
 //    }
 //}
-//
+
