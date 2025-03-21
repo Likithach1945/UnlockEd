@@ -7,7 +7,7 @@ import java.util.List;
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-@Document(collection = "courses") // Ensures mapping to the "courses" collection in MongoDB
+@Document(collection = "courses") 
 public class Course {
     @Id
     private String id;
@@ -26,7 +26,7 @@ public class Course {
         return id;
     }
 
-    public void setId(String id) {  // Ensure ID is set if needed
+    public void setId(String id) { 
         this.id = id;
     }
 
