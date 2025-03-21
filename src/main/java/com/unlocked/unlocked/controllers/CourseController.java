@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/courses")
-@CrossOrigin(origins = "http://localhost:3000") // Adjust this to match your frontend URL
+@CrossOrigin(origins = "http://localhost:3000") 
 public class CourseController {
 
     private final CourseRepository courseRepository;
@@ -19,6 +19,7 @@ public class CourseController {
         this.courseRepository = courseRepository;
     }
 
+    //add a course
     @PostMapping("/add")
     public ResponseEntity<Course> createCourse(@RequestBody Course course) {
         Course savedCourse = courseRepository.save(course);
