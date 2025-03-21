@@ -17,7 +17,7 @@ public class EnrollmentController {
         this.enrollmentRepository = enrollmentRepository;
     }
 
-    // 1️⃣ Enroll a User in a Course
+    //  Enroll a User in a Course
     @PostMapping
     public ResponseEntity<Enrollment> enrollUser(@RequestParam String userId, @RequestParam String courseId) {
         Enrollment enrollment = new Enrollment(userId, courseId);
@@ -25,14 +25,14 @@ public class EnrollmentController {
         return ResponseEntity.ok(savedEnrollment);
     }
 
-    // 2️⃣ Get All Enrolled Courses for a User
+    //  Get All Enrolled Courses for a User
     @GetMapping("/{userId}")
     public ResponseEntity<List<Enrollment>> getEnrolledCourses(@PathVariable String userId) {
         List<Enrollment> enrollments = enrollmentRepository.findByUserId(userId);
         return ResponseEntity.ok(enrollments);
     }
 
-    // 3️⃣Unenroll a User from a Course
+    // unenrolling an User from a Course
     @DeleteMapping
     public ResponseEntity<Void> unenrollUser(@RequestParam String userId, @RequestParam String courseId) {
         enrollmentRepository.deleteByUserIdAndCourseId(userId, courseId);
