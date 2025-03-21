@@ -1,0 +1,1719 @@
+[
+  {
+    "id": "course-1",
+    "title": "Full Stack Web Development",
+    "description": "Learn frontend and backend development with modern technologies.",
+    "chapters": [
+      {
+        "chapterId": "ch-1",
+        "title": "Introduction to Web Development",
+        "unlocked": true,
+        "modules": [
+          {
+            "moduleId": "mod-1-1",
+            "title": "HTML Basics",
+            "content": "Introduction to HTML and its basic structure.",
+            "unlocked": true,
+            "questions": [
+              {
+                "questionId": "q-1",
+                "question": "What does HTML stand for?",
+                "options": [
+                  "Hyper Text Markup Language",
+                  "High Tech Machine Learning",
+                  "Hyper Transfer Markup Language"
+                ],
+                "correctAnswer": "Hyper Text Markup Language",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2",
+                "question": "Which tag is used for paragraphs?",
+                "options": [
+                  "<p>",
+                  "<div>",
+                  "<span>"
+                ],
+                "correctAnswer": "<p>",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3",
+                "question": "What is the purpose of the <title> tag?",
+                "options": [
+                  "Defines the document's title",
+                  "Displays an image",
+                  "Links to a CSS file"
+                ],
+                "correctAnswer": "Defines the document's title",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-2",
+            "title": "CSS Basics",
+            "content": "Introduction to CSS styling and selectors.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4",
+                "question": "What does CSS stand for?",
+                "options": [
+                  "Cascading Style Sheets",
+                  "Creative Styling System",
+                  "Custom Sheet Styles"
+                ],
+                "correctAnswer": "Cascading Style Sheets",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5",
+                "question": "Which property changes text color?",
+                "options": [
+                  "color",
+                  "text-style",
+                  "font-color"
+                ],
+                "correctAnswer": "color",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6",
+                "question": "Which selector targets all elements?",
+                "options": [
+                  "*",
+                  "#",
+                  "."
+                ],
+                "correctAnswer": "*",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-3",
+            "title": "JavaScript Basics",
+            "content": "Introduction to JavaScript variables, data types, and basic functions.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-7",
+                "question": "Which keyword declares a variable?",
+                "options": [
+                  "var",
+                  "declare",
+                  "define"
+                ],
+                "correctAnswer": "var",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-8",
+                "question": "Which symbol is used for comments in JavaScript?",
+                "options": [
+                  "//",
+                  "<!-- -->",
+                  "#"
+                ],
+                "correctAnswer": "//",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-9",
+                "question": "What does `typeof null` return?",
+                "options": [
+                  "null",
+                  "object",
+                  "undefined"
+                ],
+                "correctAnswer": "object",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-4",
+            "title": "DOM Manipulation",
+            "content": "Introduction to modifying HTML elements using JavaScript.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-10",
+                "question": "Which method selects an element by ID?",
+                "options": [
+                  "getElementById",
+                  "querySelector",
+                  "getElementsByClassName"
+                ],
+                "correctAnswer": "getElementById",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-11",
+                "question": "Which property changes an element’s inner text?",
+                "options": [
+                  "innerText",
+                  "textValue",
+                  "contentText"
+                ],
+                "correctAnswer": "innerText",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-12",
+                "question": "Which event is triggered when a button is clicked?",
+                "options": [
+                  "onchange",
+                  "onclick",
+                  "onhover"
+                ],
+                "correctAnswer": "onclick",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-1",
+              "question": "What is the full form of HTML?",
+              "options": [
+                "Hyper Text Markup Language",
+                "Hyper Transfer Markup Language",
+                "High Tech Machine Learning"
+              ],
+              "correctAnswer": "Hyper Text Markup Language",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2",
+              "question": "Which CSS property changes background color?",
+              "options": [
+                "background-color",
+                "color",
+                "bg-color"
+              ],
+              "correctAnswer": "background-color",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3",
+              "question": "Which JavaScript method adds an element to an array?",
+              "options": [
+                "push()",
+                "add()",
+                "append()"
+              ],
+              "correctAnswer": "push()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4",
+              "question": "What is the default flex direction?",
+              "options": [
+                "row",
+                "column",
+                "inherit"
+              ],
+              "correctAnswer": "row",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5",
+              "question": "Which HTML tag is used for linking CSS?",
+              "options": [
+                "<link>",
+                "<style>",
+                "<css>"
+              ],
+              "correctAnswer": "<link>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6",
+              "question": "What is the output of `2 + '2'` in JavaScript?",
+              "options": [
+                "4",
+                "22",
+                "Error"
+              ],
+              "correctAnswer": "22",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-7",
+              "question": "Which HTTP method is used for data submission?",
+              "options": [
+                "POST",
+                "GET",
+                "DELETE"
+              ],
+              "correctAnswer": "POST",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-8",
+              "question": "What does JSON stand for?",
+              "options": [
+                "JavaScript Object Notation",
+                "Java Source Object Notation",
+                "Java Syntax Oriented Notation"
+              ],
+              "correctAnswer": "JavaScript Object Notation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-9",
+              "question": "Which tag is used for creating tables?",
+              "options": [
+                "<table>",
+                "<tr>",
+                "<td>"
+              ],
+              "correctAnswer": "<table>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-10",
+              "question": "Which database is NoSQL?",
+              "options": [
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL"
+              ],
+              "correctAnswer": "MongoDB",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-2",
+        "title": "Advanced Frontend Development",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-2-1",
+            "title": "CSS Grid",
+            "content": "Learn how to use CSS Grid to create powerful and responsive layouts.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-1",
+                "question": "Which CSS property enables the use of CSS Grid?",
+                "options": [
+                  "display: flex;",
+                  "display: grid;",
+                  "grid-template"
+                ],
+                "correctAnswer": "display: grid;",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-2",
+                "question": "Which property defines the number of columns in a grid?",
+                "options": [
+                  "grid-rows",
+                  "grid-template-columns",
+                  "column-width"
+                ],
+                "correctAnswer": "grid-template-columns",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-3",
+                "question": "What is the default value of 'grid-auto-flow'?",
+                "options": [
+                  "row",
+                  "column",
+                  "dense"
+                ],
+                "correctAnswer": "row",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-2",
+            "title": "CSS Flexbox",
+            "content": "Understand Flexbox for arranging elements efficiently in a row or column.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-4",
+                "question": "Which property is used to align items in a flex container?",
+                "options": [
+                  "justify-content",
+                  "align-items",
+                  "flex-wrap"
+                ],
+                "correctAnswer": "align-items",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-5",
+                "question": "Which of the following is NOT a valid Flexbox property?",
+                "options": [
+                  "flex-grow",
+                  "grid-gap",
+                  "order"
+                ],
+                "correctAnswer": "grid-gap",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-6",
+                "question": "What does 'flex-wrap: wrap;' do?",
+                "options": [
+                  "Keeps all items in a single line",
+                  "Moves items to the next row if needed",
+                  "Aligns items to the start"
+                ],
+                "correctAnswer": "Moves items to the next row if needed",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-3",
+            "title": "Responsive Design",
+            "content": "Learn how to create layouts that adapt to different screen sizes.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-7",
+                "question": "Which unit is best for responsive typography?",
+                "options": [
+                  "px",
+                  "em",
+                  "rem"
+                ],
+                "correctAnswer": "rem",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-8",
+                "question": "Which CSS property makes an element adjust to different screen sizes?",
+                "options": [
+                  "width",
+                  "max-width",
+                  "height"
+                ],
+                "correctAnswer": "max-width",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-9",
+                "question": "Which media query condition targets screens smaller than 768px?",
+                "options": [
+                  "@media (max-width: 768px)",
+                  "@media (min-width: 768px)",
+                  "@media (screen-width: 768px)"
+                ],
+                "correctAnswer": "@media (max-width: 768px)",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-2-4",
+            "title": "CSS Animations",
+            "content": "Explore CSS animations for adding motion to web elements.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-2-10",
+                "question": "Which property defines an animation?",
+                "options": [
+                  "@keyframes",
+                  "animation-name",
+                  "transition"
+                ],
+                "correctAnswer": "animation-name",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-11",
+                "question": "Which property controls the duration of an animation?",
+                "options": [
+                  "animation-delay",
+                  "animation-timing-function",
+                  "animation-duration"
+                ],
+                "correctAnswer": "animation-duration",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2-12",
+                "question": "What value makes an animation repeat infinitely?",
+                "options": [
+                  "repeat",
+                  "loop",
+                  "infinite"
+                ],
+                "correctAnswer": "infinite",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-2-1",
+              "question": "Which property sets a flexible grid layout?",
+              "options": [
+                "display: block;",
+                "display: flex;",
+                "display: grid;"
+              ],
+              "correctAnswer": "display: grid;",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-2",
+              "question": "Which flexbox property defines spacing between items?",
+              "options": [
+                "gap",
+                "space-between",
+                "margin"
+              ],
+              "correctAnswer": "gap",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-3",
+              "question": "What is the purpose of media queries?",
+              "options": [
+                "Changing colors",
+                "Applying different styles for different devices",
+                "Modifying JavaScript functions"
+              ],
+              "correctAnswer": "Applying different styles for different devices",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-4",
+              "question": "Which unit is relative to the root font size?",
+              "options": [
+                "px",
+                "rem",
+                "em"
+              ],
+              "correctAnswer": "rem",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-5",
+              "question": "Which CSS property is used for animations?",
+              "options": [
+                "transition",
+                "animation",
+                "keyframes"
+              ],
+              "correctAnswer": "animation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-6",
+              "question": "Which function is used to delay an animation?",
+              "options": [
+                "animation-duration",
+                "animation-delay",
+                "animation-iteration"
+              ],
+              "correctAnswer": "animation-delay",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-7",
+              "question": "Which property is NOT part of flexbox?",
+              "options": [
+                "justify-content",
+                "align-items",
+                "grid-template-rows"
+              ],
+              "correctAnswer": "grid-template-rows",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-8",
+              "question": "Which property controls the speed curve of an animation?",
+              "options": [
+                "animation-speed",
+                "animation-timing-function",
+                "animation-iteration"
+              ],
+              "correctAnswer": "animation-timing-function",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-9",
+              "question": "Which flexbox property sets the direction of items?",
+              "options": [
+                "flex-flow",
+                "flex-direction",
+                "align-items"
+              ],
+              "correctAnswer": "flex-direction",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2-10",
+              "question": "Which CSS feature allows a webpage to be viewed on different devices?",
+              "options": [
+                "Flexbox",
+                "Responsive Design",
+                "Transitions"
+              ],
+              "correctAnswer": "Responsive Design",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-3",
+        "title": "JavaScript & ES6+ Features",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-3-1",
+            "title": "JavaScript Functions",
+            "content": "Learn about functions, function expressions, and arrow functions in JavaScript.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-1",
+                "question": "Which keyword is used to define a function in JavaScript?",
+                "options": [
+                  "func",
+                  "function",
+                  "define"
+                ],
+                "correctAnswer": "function",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-2",
+                "question": "What is an arrow function?",
+                "options": [
+                  "A function without a name",
+                  "A function defined with '=>'",
+                  "A function that executes automatically"
+                ],
+                "correctAnswer": "A function defined with '=>'",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-3",
+                "question": "Which statement correctly calls a function named 'myFunction'?",
+                "options": [
+                  "call myFunction;",
+                  "myFunction();",
+                  "execute myFunction;"
+                ],
+                "correctAnswer": "myFunction();",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-2",
+            "title": "Async/Await in JavaScript",
+            "content": "Understand asynchronous programming using async/await.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-4",
+                "question": "Which keyword is used to define an asynchronous function?",
+                "options": [
+                  "async",
+                  "await",
+                  "promise"
+                ],
+                "correctAnswer": "async",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-5",
+                "question": "Which statement is correct about 'await'?",
+                "options": [
+                  "It can only be used inside an async function",
+                  "It makes a function synchronous",
+                  "It waits for all promises to resolve"
+                ],
+                "correctAnswer": "It can only be used inside an async function",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-6",
+                "question": "What does 'await fetch()' return?",
+                "options": [
+                  "A JSON object",
+                  "A promise",
+                  "A resolved response"
+                ],
+                "correctAnswer": "A promise",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-3",
+            "title": "JavaScript Promises",
+            "content": "Learn how JavaScript Promises work for handling asynchronous operations.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-7",
+                "question": "Which states does a JavaScript Promise have?",
+                "options": [
+                  "Pending, Fulfilled, Rejected",
+                  "Waiting, Resolved, Rejected",
+                  "Start, Complete, Fail"
+                ],
+                "correctAnswer": "Pending, Fulfilled, Rejected",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-8",
+                "question": "Which method is used to handle a fulfilled Promise?",
+                "options": [
+                  ".then()",
+                  ".catch()",
+                  ".finally()"
+                ],
+                "correctAnswer": ".then()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-9",
+                "question": "What does '.catch()' do in a Promise?",
+                "options": [
+                  "Handles resolved values",
+                  "Handles errors",
+                  "Executes the next promise"
+                ],
+                "correctAnswer": "Handles errors",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-3-4",
+            "title": "JavaScript Modules",
+            "content": "Explore ES6 Modules and how to import/export JavaScript code.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-3-10",
+                "question": "Which keyword is used to export a module in JavaScript?",
+                "options": [
+                  "export",
+                  "module.exports",
+                  "export default"
+                ],
+                "correctAnswer": "export",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-11",
+                "question": "How do you import a named export from a module?",
+                "options": [
+                  "import myFunc from './module.js';",
+                  "import { myFunc } from './module.js';",
+                  "require('./module.js');"
+                ],
+                "correctAnswer": "import { myFunc } from './module.js';",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3-12",
+                "question": "Which file extension is commonly used for JavaScript modules?",
+                "options": [
+                  ".mjs",
+                  ".jsx",
+                  ".es6"
+                ],
+                "correctAnswer": ".mjs",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-3-1",
+              "question": "Which function type does not have its own 'this' keyword?",
+              "options": [
+                "Arrow function",
+                "Named function",
+                "Anonymous function"
+              ],
+              "correctAnswer": "Arrow function",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-2",
+              "question": "Which method handles errors in a Promise?",
+              "options": [
+                ".resolve()",
+                ".catch()",
+                ".finally()"
+              ],
+              "correctAnswer": ".catch()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-3",
+              "question": "What is the purpose of 'async' keyword in JavaScript?",
+              "options": [
+                "Makes a function asynchronous",
+                "Waits for a promise",
+                "Creates a new thread"
+              ],
+              "correctAnswer": "Makes a function asynchronous",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-4",
+              "question": "What does 'import defaultExport from' do?",
+              "options": [
+                "Imports all functions",
+                "Imports the default export",
+                "Exports a module"
+              ],
+              "correctAnswer": "Imports the default export",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-5",
+              "question": "Which method resolves a JavaScript Promise?",
+              "options": [
+                "resolve()",
+                "reject()",
+                "return()"
+              ],
+              "correctAnswer": "resolve()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-6",
+              "question": "Which ES6 feature allows using template literals?",
+              "options": [
+                "${variable}",
+                "let",
+                "const"
+              ],
+              "correctAnswer": "${variable}",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-7",
+              "question": "Which method is used to execute a function after a specified delay?",
+              "options": [
+                "setTimeout()",
+                "setInterval()",
+                "clearTimeout()"
+              ],
+              "correctAnswer": "setTimeout()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-8",
+              "question": "Which keyword is used to define block-scoped variables?",
+              "options": [
+                "var",
+                "let",
+                "const"
+              ],
+              "correctAnswer": "let",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-9",
+              "question": "Which function converts a JSON string into a JavaScript object?",
+              "options": [
+                "JSON.parse()",
+                "JSON.stringify()",
+                "JSON.toObject()"
+              ],
+              "correctAnswer": "JSON.parse()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3-10",
+              "question": "Which JavaScript feature allows spreading elements of an array?",
+              "options": [
+                "Rest operator",
+                "Spread operator",
+                "Concat method"
+              ],
+              "correctAnswer": "Spread operator",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-4",
+        "title": "Backend Development with Node.js",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-4-1",
+            "title": "Introduction to Express.js",
+            "content": "Learn the basics of Express.js and how to set up a Node.js server.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-1",
+                "question": "Which command is used to install Express.js?",
+                "options": [
+                  "npm install express",
+                  "express new app",
+                  "node install express"
+                ],
+                "correctAnswer": "npm install express",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-2",
+                "question": "Which method is used to create an Express app?",
+                "options": [
+                  "express()",
+                  "new Express()",
+                  "createExpress()"
+                ],
+                "correctAnswer": "express()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-3",
+                "question": "Which HTTP method is used to retrieve data from a server?",
+                "options": [
+                  "GET",
+                  "POST",
+                  "DELETE"
+                ],
+                "correctAnswer": "GET",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-2",
+            "title": "Building REST APIs with Express",
+            "content": "Learn how to create RESTful APIs using Express.js and handle different HTTP requests.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-4",
+                "question": "Which middleware is commonly used to parse JSON data in Express?",
+                "options": [
+                  "express.json()",
+                  "bodyParser.json()",
+                  "jsonParser()"
+                ],
+                "correctAnswer": "express.json()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-5",
+                "question": "What status code represents a successful HTTP request?",
+                "options": [
+                  "200",
+                  "404",
+                  "500"
+                ],
+                "correctAnswer": "200",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-6",
+                "question": "Which method is used to define a route in Express?",
+                "options": [
+                  "app.route()",
+                  "app.get()",
+                  "app.use()"
+                ],
+                "correctAnswer": "app.get()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-3",
+            "title": "Database Integration with MongoDB",
+            "content": "Understand how to connect Express.js with MongoDB using Mongoose.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-7",
+                "question": "Which library is commonly used to interact with MongoDB in Node.js?",
+                "options": [
+                  "Sequelize",
+                  "Mongoose",
+                  "MongoJS"
+                ],
+                "correctAnswer": "Mongoose",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-8",
+                "question": "Which command is used to connect to a MongoDB database in Mongoose?",
+                "options": [
+                  "mongoose.connect()",
+                  "mongo.connect()",
+                  "db.connect()"
+                ],
+                "correctAnswer": "mongoose.connect()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-9",
+                "question": "Which MongoDB operation is used to insert data into a collection?",
+                "options": [
+                  "insertOne()",
+                  "create()",
+                  "addData()"
+                ],
+                "correctAnswer": "insertOne()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-4-4",
+            "title": "Authentication & Security in Node.js",
+            "content": "Learn how to implement user authentication and security best practices in Node.js applications.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4-10",
+                "question": "Which library is commonly used for user authentication in Express apps?",
+                "options": [
+                  "JWT",
+                  "OAuth",
+                  "Passport.js"
+                ],
+                "correctAnswer": "Passport.js",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-11",
+                "question": "What is the purpose of bcrypt in Node.js applications?",
+                "options": [
+                  "Encrypting passwords",
+                  "Handling API requests",
+                  "Storing user data"
+                ],
+                "correctAnswer": "Encrypting passwords",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-4-12",
+                "question": "Which HTTP status code represents an unauthorized request?",
+                "options": [
+                  "403",
+                  "401",
+                  "500"
+                ],
+                "correctAnswer": "401",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-4-1",
+              "question": "Which framework is used to build backend applications in Node.js?",
+              "options": [
+                "Django",
+                "Express.js",
+                "Flask"
+              ],
+              "correctAnswer": "Express.js",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-2",
+              "question": "Which middleware function is used to serve static files in Express?",
+              "options": [
+                "express.static()",
+                "app.useStatic()",
+                "staticFiles()"
+              ],
+              "correctAnswer": "express.static()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-3",
+              "question": "What is the default port number for a Node.js application?",
+              "options": [
+                "8080",
+                "3000",
+                "5000"
+              ],
+              "correctAnswer": "3000",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-4",
+              "question": "Which method is used to send a JSON response in Express?",
+              "options": [
+                "res.send()",
+                "res.json()",
+                "res.data()"
+              ],
+              "correctAnswer": "res.json()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-5",
+              "question": "Which module is required to work with MongoDB in a Node.js application?",
+              "options": [
+                "mongoose",
+                "express",
+                "body-parser"
+              ],
+              "correctAnswer": "mongoose",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-6",
+              "question": "What does CORS stand for?",
+              "options": [
+                "Cross-Origin Resource Sharing",
+                "Client-Origin Request Security",
+                "Cross-Over Routing System"
+              ],
+              "correctAnswer": "Cross-Origin Resource Sharing",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-7",
+              "question": "Which method is used to update a document in MongoDB?",
+              "options": [
+                "updateOne()",
+                "modifyOne()",
+                "changeDocument()"
+              ],
+              "correctAnswer": "updateOne()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-8",
+              "question": "Which hashing algorithm is commonly used with bcrypt?",
+              "options": [
+                "SHA-256",
+                "MD5",
+                "Blowfish"
+              ],
+              "correctAnswer": "Blowfish",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-9",
+              "question": "Which method is used to handle errors globally in Express?",
+              "options": [
+                "app.error()",
+                "app.use(errorHandler)",
+                "app.catch()"
+              ],
+              "correctAnswer": "app.use(errorHandler)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4-10",
+              "question": "What is the purpose of middleware in Express?",
+              "options": [
+                "Handling requests and responses",
+                "Connecting to databases",
+                "Compiling JavaScript files"
+              ],
+              "correctAnswer": "Handling requests and responses",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-5",
+        "title": "MongoDB & Database Design",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-5-1",
+            "title": "Introduction to MongoDB & NoSQL",
+            "content": "Learn the basics of MongoDB, its advantages over relational databases, and NoSQL concepts.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-1",
+                "question": "What type of database is MongoDB?",
+                "options": [
+                  "Relational",
+                  "NoSQL",
+                  "Graph"
+                ],
+                "correctAnswer": "NoSQL",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-2",
+                "question": "Which command is used to check the available databases in MongoDB?",
+                "options": [
+                  "show dbs",
+                  "list databases",
+                  "get databases"
+                ],
+                "correctAnswer": "show dbs",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-3",
+                "question": "Which data format does MongoDB use for storing documents?",
+                "options": [
+                  "XML",
+                  "JSON",
+                  "BSON"
+                ],
+                "correctAnswer": "BSON",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-2",
+            "title": "CRUD Operations in MongoDB",
+            "content": "Understand how to create, read, update, and delete documents in MongoDB collections.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-4",
+                "question": "Which method is used to insert a single document into a MongoDB collection?",
+                "options": [
+                  "insertOne()",
+                  "addOne()",
+                  "createOne()"
+                ],
+                "correctAnswer": "insertOne()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-5",
+                "question": "Which method is used to retrieve all documents from a collection?",
+                "options": [
+                  "find()",
+                  "getAll()",
+                  "fetch()"
+                ],
+                "correctAnswer": "find()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-6",
+                "question": "Which method is used to delete a single document from a collection?",
+                "options": [
+                  "deleteOne()",
+                  "removeOne()",
+                  "dropOne()"
+                ],
+                "correctAnswer": "deleteOne()",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-3",
+            "title": "Indexing in MongoDB",
+            "content": "Learn how indexing improves query performance and how to create indexes in MongoDB.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-7",
+                "question": "Which method is used to create an index in MongoDB?",
+                "options": [
+                  "createIndex()",
+                  "addIndex()",
+                  "setIndex()"
+                ],
+                "correctAnswer": "createIndex()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-8",
+                "question": "What is the default index created on every MongoDB collection?",
+                "options": [
+                  "_id index",
+                  "name index",
+                  "primary index"
+                ],
+                "correctAnswer": "_id index",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-9",
+                "question": "Which type of index supports geospatial queries in MongoDB?",
+                "options": [
+                  "2dsphere",
+                  "text",
+                  "hashed"
+                ],
+                "correctAnswer": "2dsphere",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-5-4",
+            "title": "Aggregation in MongoDB",
+            "content": "Learn how to perform data analysis and transformation using MongoDB’s aggregation framework.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-5-10",
+                "question": "Which method is used to perform aggregation operations in MongoDB?",
+                "options": [
+                  "aggregate()",
+                  "groupBy()",
+                  "pipeline()"
+                ],
+                "correctAnswer": "aggregate()",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-11",
+                "question": "Which aggregation stage is used to group documents?",
+                "options": [
+                  "$group",
+                  "$match",
+                  "$sort"
+                ],
+                "correctAnswer": "$group",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5-12",
+                "question": "Which stage in aggregation is used to filter documents?",
+                "options": [
+                  "$match",
+                  "$filter",
+                  "$where"
+                ],
+                "correctAnswer": "$match",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-5-1",
+              "question": "Which query is used to find a document in MongoDB?",
+              "options": [
+                "find()",
+                "search()",
+                "query()"
+              ],
+              "correctAnswer": "find()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-2",
+              "question": "Which command is used to delete a collection?",
+              "options": [
+                "drop()",
+                "delete()",
+                "remove()"
+              ],
+              "correctAnswer": "drop()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-3",
+              "question": "What does NoSQL stand for?",
+              "options": [
+                "Not Only SQL",
+                "Non-Structured Query Language",
+                "New SQL"
+              ],
+              "correctAnswer": "Not Only SQL",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-4",
+              "question": "Which command is used to update multiple documents in a collection?",
+              "options": [
+                "updateMany()",
+                "modifyMany()",
+                "editMany()"
+              ],
+              "correctAnswer": "updateMany()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-5",
+              "question": "Which MongoDB operator is used for sorting query results?",
+              "options": [
+                "$sort",
+                "$order",
+                "$arrange"
+              ],
+              "correctAnswer": "$sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-6",
+              "question": "What is the purpose of a capped collection?",
+              "options": [
+                "Fixed-size collection",
+                "Automatically indexed collection",
+                "Temporary collection"
+              ],
+              "correctAnswer": "Fixed-size collection",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-7",
+              "question": "Which MongoDB feature supports full-text search?",
+              "options": [
+                "Text Index",
+                "Full Index",
+                "Search Index"
+              ],
+              "correctAnswer": "Text Index",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-8",
+              "question": "Which MongoDB command is used to create a new database?",
+              "options": [
+                "use <dbname>",
+                "createDatabase()",
+                "newDB()"
+              ],
+              "correctAnswer": "use <dbname>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-9",
+              "question": "What is the purpose of the `$lookup` stage in aggregation?",
+              "options": [
+                "Joins collections",
+                "Filters documents",
+                "Sorts data"
+              ],
+              "correctAnswer": "Joins collections",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5-10",
+              "question": "Which MongoDB method returns the total count of documents in a collection?",
+              "options": [
+                "countDocuments()",
+                "totalDocs()",
+                "getCount()"
+              ],
+              "correctAnswer": "countDocuments()",
+              "userAnswer": ""
+            }
+          ]
+        }
+      },
+      {
+        "chapterId": "ch-6",
+        "title": "Full-Stack Project & Deployment",
+        "unlocked": false,
+        "modules": [
+          {
+            "moduleId": "mod-6-1",
+            "title": "Authentication & Authorization",
+            "content": "Learn about user authentication, JWT, OAuth, and role-based access control (RBAC).",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-1",
+                "question": "Which authentication method uses tokens to validate users?",
+                "options": [
+                  "Session-based",
+                  "JWT",
+                  "OAuth"
+                ],
+                "correctAnswer": "JWT",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-2",
+                "question": "What is the purpose of OAuth?",
+                "options": [
+                  "Encrypt data",
+                  "Allow third-party authentication",
+                  "Store user credentials"
+                ],
+                "correctAnswer": "Allow third-party authentication",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-3",
+                "question": "Which HTTP status code represents an unauthorized request?",
+                "options": [
+                  "200",
+                  "403",
+                  "401"
+                ],
+                "correctAnswer": "401",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-2",
+            "title": "Continuous Integration & Continuous Deployment (CI/CD)",
+            "content": "Understand CI/CD pipelines, GitHub Actions, and deployment automation.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-4",
+                "question": "What does CI/CD stand for?",
+                "options": [
+                  "Continuous Improvement / Code Deployment",
+                  "Continuous Integration / Continuous Deployment",
+                  "Code Implementation / Continuous Development"
+                ],
+                "correctAnswer": "Continuous Integration / Continuous Deployment",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-5",
+                "question": "Which tool is commonly used for CI/CD pipelines?",
+                "options": [
+                  "Jenkins",
+                  "Postman",
+                  "MongoDB"
+                ],
+                "correctAnswer": "Jenkins",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-6",
+                "question": "What is the purpose of a CI/CD pipeline?",
+                "options": [
+                  "Manually deploy code",
+                  "Automate testing and deployment",
+                  "Store project backups"
+                ],
+                "correctAnswer": "Automate testing and deployment",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-3",
+            "title": "Hosting & Deployment",
+            "content": "Explore cloud platforms, Docker, and hosting services like AWS, Vercel, and Heroku.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-7",
+                "question": "Which cloud provider offers serverless deployment?",
+                "options": [
+                  "AWS Lambda",
+                  "MongoDB",
+                  "Docker"
+                ],
+                "correctAnswer": "AWS Lambda",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-8",
+                "question": "Which command is used to build a Docker image?",
+                "options": [
+                  "docker build",
+                  "docker create",
+                  "docker compose"
+                ],
+                "correctAnswer": "docker build",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-9",
+                "question": "Which service is commonly used for deploying frontend applications?",
+                "options": [
+                  "Vercel",
+                  "Postman",
+                  "MongoDB Atlas"
+                ],
+                "correctAnswer": "Vercel",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-6-4",
+            "title": "Monitoring & Security",
+            "content": "Learn how to monitor server performance, handle logs, and improve security.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-6-10",
+                "question": "Which tool is used for monitoring server performance?",
+                "options": [
+                  "Prometheus",
+                  "Git",
+                  "Figma"
+                ],
+                "correctAnswer": "Prometheus",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-11",
+                "question": "Which HTTP header helps prevent Cross-Site Scripting (XSS)?",
+                "options": [
+                  "Content-Security-Policy",
+                  "Authorization",
+                  "User-Agent"
+                ],
+                "correctAnswer": "Content-Security-Policy",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6-12",
+                "question": "Which security measure helps protect passwords?",
+                "options": [
+                  "Hashing",
+                  "Plain text storage",
+                  "Logging"
+                ],
+                "correctAnswer": "Hashing",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-6-1",
+              "question": "What does RBAC stand for?",
+              "options": [
+                "Role-Based Access Control",
+                "Restricted Backend API Control",
+                "Role-Based Account Configuration"
+              ],
+              "correctAnswer": "Role-Based Access Control",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-2",
+              "question": "Which protocol is commonly used for secure web communication?",
+              "options": [
+                "HTTPS",
+                "FTP",
+                "SMTP"
+              ],
+              "correctAnswer": "HTTPS",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-3",
+              "question": "What is Docker primarily used for?",
+              "options": [
+                "Containerization",
+                "Database Management",
+                "Code Compilation"
+              ],
+              "correctAnswer": "Containerization",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-4",
+              "question": "Which CI/CD tool is integrated with GitHub?",
+              "options": [
+                "GitHub Actions",
+                "Postman",
+                "Terraform"
+              ],
+              "correctAnswer": "GitHub Actions",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-5",
+              "question": "Which service provides scalable cloud hosting?",
+              "options": [
+                "AWS EC2",
+                "MongoDB Atlas",
+                "Photoshop"
+              ],
+              "correctAnswer": "AWS EC2",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-6",
+              "question": "Which command is used to start a Docker container?",
+              "options": [
+                "docker run",
+                "docker start",
+                "docker create"
+              ],
+              "correctAnswer": "docker run",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-7",
+              "question": "Which logging service is commonly used in cloud applications?",
+              "options": [
+                "ELK Stack",
+                "GitHub",
+                "CSS"
+              ],
+              "correctAnswer": "ELK Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-8",
+              "question": "Which platform is used for frontend hosting with serverless functions?",
+              "options": [
+                "Vercel",
+                "Postman",
+                "Git"
+              ],
+              "correctAnswer": "Vercel",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-9",
+              "question": "Which of the following improves application security?",
+              "options": [
+                "SSL Certificates",
+                "Plain text passwords",
+                "Disabling firewalls"
+              ],
+              "correctAnswer": "SSL Certificates",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6-10",
+              "question": "Which cloud provider offers Firebase Hosting?",
+              "options": [
+                "Google Cloud",
+                "AWS",
+                "Microsoft Azure"
+              ],
+              "correctAnswer": "Google Cloud",
+              "userAnswer": ""
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
