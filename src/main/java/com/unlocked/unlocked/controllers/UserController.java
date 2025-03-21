@@ -38,6 +38,6 @@ public class UserController {
             user.setSkills(skills);
             return userRepository.save(user);
         }
-        return null; // Handle user not found properly in a real scenario
+        return null; //  user not found properly
     }
 }
